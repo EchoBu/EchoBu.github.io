@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,7 +68,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
+    scheme: 'Muse',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
     back2top: true,
@@ -288,6 +288,9 @@
   
 
   
+    
+
+  
 
   
 </nav>
@@ -308,12 +311,181 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-            
-
-          
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/05/As-rigid-as-possible-surface-modeling论文阅读笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Echo Bu">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Never Settle">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/07/05/As-rigid-as-possible-surface-modeling论文阅读笔记/" class="post-title-link" itemprop="url">As-rigid-as-possible surface modeling论文阅读笔记</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-05 16:48:01 / 修改时间：17:14:10" itemprop="dateCreated datePublished" datetime="2019-07-05T16:48:01+08:00">2019-07-05</time>
+            </span>
+          
+
+          
+            
+
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/论文阅读笔记/" itemprop="url" rel="index"><span itemprop="name">论文阅读笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>
+              这篇论文注意讲了一种保刚性网格变形的方法，注要是定义一个刚性能量函数E，函数中的变量有两个：旋转矩阵R和变形后顶点位置P，交替在其中一个确定的情况下去最小化另外一个，一定迭代次数后得到使E达到一个较小的值
+
+              
+            </p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/07/05/As-rigid-as-possible-surface-modeling论文阅读笔记/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -444,89 +616,19 @@
       
         
           
-            <p>第一次自己搭建博客，第一篇文章来介绍一下markdown的基本语法，自己也是第一次学习markdown语法。  Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如Joomla、Drupal都能很好的支持Markdown。</p>
-<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1 标题"></a>1 标题</h1><p>markdown支持6级标题，在想要设置为标题的文字前面加#来表示，一个#是一级标题，二个#是二级标题，以此类推。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
-
-<h1 id="2-文本样式"><a href="#2-文本样式" class="headerlink" title="2 文本样式"></a>2 文本样式</h1><p>加粗，斜体，删除线，高亮，角标等</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">加粗 **加粗**</span><br><span class="line">斜体 *斜体*</span><br><span class="line">加粗斜体 ***加粗斜体***</span><br><span class="line">删除 ~~删除线~~</span><br><span class="line">高亮 ==高亮==（部分支持）</span><br><span class="line">角标 H&lt;sub&gt;2&lt;/sub&gt;O  x&lt;sup&gt;2&lt;/sup&gt;</span><br></pre></td></tr></table></figure>
-
-<p>效果如下<br> <strong>加粗</strong><br> <em>斜体</em><br><strong><em>加粗斜体</em></strong><br> <del>删除线</del><br>==高亮==<br>H<sub>2</sub>O   x<sup>2</sup></p>
-<h1 id="3-引用"><a href="#3-引用" class="headerlink" title="3 引用"></a>3 引用</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在引用的文字前加&gt;即可,可嵌套</span><br></pre></td></tr></table></figure>
-
-<p>效果如下</p>
-<blockquote>
-<p>这是一个引用</p>
-<blockquote>
-<p>这是引用中的引用</p>
-</blockquote>
-</blockquote>
-<h1 id="4-分割线"><a href="#4-分割线" class="headerlink" title="4 分割线"></a>4 分割线</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">三个或者三个以上的 - 或者 * 都可以，效果也相同，貌似‘*’组成的分割线粗一点</span><br><span class="line">如：</span><br><span class="line">---</span><br><span class="line">***</span><br><span class="line">-----</span><br><span class="line">****</span><br></pre></td></tr></table></figure>
-
-<p>效果如下</p>
-<hr>
-<hr>
-<hr>
-<hr>
-<h1 id="5-图片"><a href="#5-图片" class="headerlink" title="5 图片"></a>5 图片</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">![图片alt](图片地址 &quot;图片title&quot;)</span><br><span class="line">图片alt就是显示在图片下面的文字，相当于对图片内容的解释。</span><br><span class="line">图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</span><br><span class="line">示例：</span><br><span class="line">![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/</span><br><span class="line">u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg &quot;区块链&quot;)</span><br></pre></td></tr></table></figure>
-
-<p>效果如下<br><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" title="RUNOOB"></p>
-<h1 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6 超链接"></a>6 超链接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">行内链接：</span><br><span class="line">[超链接名](超链接地址 &quot;超链接title&quot;),title可加可不加</span><br><span class="line">示例：</span><br><span class="line">[百度](http://baidu.com)</span><br><span class="line"></span><br><span class="line">参考形式链接</span><br><span class="line">我使用 [Google][1] 进行学术搜索多一些,使用 [百度][2]进行日常搜索多一些，很少使用[Bing][3] .</span><br><span class="line">我不能一边使用 [百度搜索][2] 一边骂他不如 [Google][1]，我们需要学会的是利用资源。</span><br><span class="line"></span><br><span class="line">[1]: https://www.google.com/ &quot;Google&quot;</span><br><span class="line">[2]: https://www.baidu.com/ &quot;Baidu Search&quot;</span><br><span class="line">[3]: https://cn.bing.com/ &quot;Bing Search&quot;</span><br></pre></td></tr></table></figure>
-
-<p>效果如下<br>1.<a href="https://baidu.com" target="_blank" rel="noopener">百度</a><br>2.我使用 <a href="https://www.google.com/" title="Google" target="_blank" rel="noopener">Google</a> 进行学术搜索多一些,使用 <a href="https://www.baidu.com/" title="Baidu Search" target="_blank" rel="noopener">百度</a>进行日常搜索多一些，很少使用<a href="https://cn.bing.com/" title="Bing Search" target="_blank" rel="noopener">Bing</a> .<br>我不能一边使用 <a href="https://www.baidu.com/" title="Baidu Search" target="_blank" rel="noopener">百度搜索</a> 一边骂他不如 <a href="https://www.google.com/" title="Google" target="_blank" rel="noopener">Google</a>，我们需要学会的是利用资源。</p>
-<h1 id="7-列表"><a href="#7-列表" class="headerlink" title="7 列表"></a>7 列表</h1><h2 id="7-1无序列表"><a href="#7-1无序列表" class="headerlink" title="7.1无序列表"></a>7.1无序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">无序列表用 - + * 任何一种都可以</span><br><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line">注意：- + * 跟内容之间都要有一个空格</span><br></pre></td></tr></table></figure>
-
-<p>效果如下</p>
-<ul>
-<li>列表内容</li>
-</ul>
-<ul>
-<li>列表内容</li>
-</ul>
-<ul>
-<li>列表内容</li>
-</ul>
-<h2 id="7-2有序列表"><a href="#7-2有序列表" class="headerlink" title="7.2有序列表"></a>7.2有序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">有序列表使用数字+.</span><br><span class="line">1.列表内容</span><br><span class="line">2.列表内容</span><br><span class="line">3.列表内容</span><br><span class="line">注意：序号跟内容之间要有空格</span><br></pre></td></tr></table></figure>
-
-<p>效果如下<br>1.列表内容1<br>2.列表内容2<br>3.列表内容3</p>
-<h2 id="7-3-列表嵌套"><a href="#7-3-列表嵌套" class="headerlink" title="7.3 列表嵌套"></a>7.3 列表嵌套</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">上一级和下一级列表之间敲三个空格即可，有序和无序列表之间可以嵌套使用</span><br><span class="line">示例：</span><br><span class="line">1.一级列表</span><br><span class="line">   - 二级子列表</span><br><span class="line">   - 二级子列表</span><br><span class="line">      1.三级子列表</span><br><span class="line">      2.三级子列表</span><br></pre></td></tr></table></figure>
-
-<p>效果如下<br>1.一级列表</p>
-<ul>
-<li>二级子列表</li>
-<li>二级子列表<br> 1.三级子列表<br> 2.三级子列表</li>
-</ul>
-<h1 id="8-表格"><a href="#8-表格" class="headerlink" title="8 表格"></a>8 表格</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line"></span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">- 有一个就行，为了对齐，多加了几个</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中</span><br><span class="line">-右边加：表示文字居右</span><br><span class="line">注：原生的语法两边都要用 | 包起来。此处省略</span><br><span class="line"></span><br><span class="line">示例：</span><br><span class="line">姓名|技能|排行</span><br><span class="line">-|:-:|-:</span><br><span class="line">刘备|哭|大哥</span><br><span class="line">关羽|打|二哥</span><br><span class="line">张飞|骂|三弟</span><br></pre></td></tr></table></figure>
-
-<table>
-<thead>
-<tr>
-<th>姓名</th>
-<th align="center">技能</th>
-<th align="right">排行</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>刘备</td>
-<td align="center">哭</td>
-<td align="right">大哥</td>
-</tr>
-<tr>
-<td>关羽</td>
-<td align="center">打</td>
-<td align="right">二哥</td>
-</tr>
-<tr>
-<td>张飞</td>
-<td align="center">骂</td>
-<td align="right">三弟</td>
-</tr>
-</tbody></table>
-<h1 id="9-代码"><a href="#9-代码" class="headerlink" title="9 代码"></a>9 代码</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">行内代码用 `代码`包起来</span><br><span class="line">多行代码用 ```代码 ```包起来</span><br></pre></td></tr></table></figure>
-
-<p>效果如下<br>行内代码<code>create database hero;</code><br>多行代码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">function fun()&#123;</span><br><span class="line">      echo &quot;这是一句非常牛逼的代码&quot;;</span><br><span class="line">&#125;</span><br><span class="line">fun();</span><br></pre></td></tr></table></figure>
+            <p>
+              第一次自己搭建博客，第一篇文章来介绍一下markdown的基本语法，自己也是第一次学习markdown语法。  Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/07/04/markdown语法初级/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -610,7 +712,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -629,7 +731,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -648,7 +752,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -818,10 +926,7 @@
   
 
 
-  <script src="/js/affix.js?v=7.2.0"></script>
-
-  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
-
+  <script src="/js/schemes/muse.js?v=7.2.0"></script>
 
 
 
