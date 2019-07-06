@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="Never Settle">
 <meta property="og:description" content="这篇论文注意讲了一种保刚性网格变形的方法，注要是定义一个刚性能量函数E，函数中的变量有两个：旋转矩阵R和变形后顶点位置P，交替在其中一个确定的情况下去最小化另外一个，一定迭代次数后得到使E达到一个较小的值，在这个过程中完成了保刚性的变形 刚性能量函数的定义定义">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-05T11:36:45.517Z">
+<meta property="og:updated_time" content="2019-07-06T04:18:02.631Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="As-rigid-as-possible surface modeling论文阅读笔记">
 <meta name="twitter:description" content="这篇论文注意讲了一种保刚性网格变形的方法，注要是定义一个刚性能量函数E，函数中的变量有两个：旋转矩阵R和变形后顶点位置P，交替在其中一个确定的情况下去最小化另外一个，一定迭代次数后得到使E达到一个较小的值，在这个过程中完成了保刚性的变形 刚性能量函数的定义定义">
@@ -377,13 +377,23 @@
                 
               
 
-              <time title="创建时间：2019-07-05 16:48:01 / 修改时间：19:36:45" itemprop="dateCreated datePublished" datetime="2019-07-05T16:48:01+08:00">2019-07-05</time>
+              <time title="创建时间：2019-07-05 16:48:01" itemprop="dateCreated datePublished" datetime="2019-07-05T16:48:01+08:00">2019-07-05</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-06 12:18:02" itemprop="dateModified" datetime="2019-07-06T12:18:02+08:00">2019-07-06</time>
+              </span>
             
           
 
@@ -838,6 +848,46 @@
   
   
 
+  
+    
+      <script type="text/x-mathjax-config">
+  
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
+    });
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script src="//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
   
 
 
